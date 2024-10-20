@@ -1,0 +1,398 @@
+
+.product-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.details {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.detail-1 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.detail-2 {
+    width: 42%;
+    height: 100%;
+    overflow: hidden;
+    overflow: hidden;
+    margin: 0px;
+}
+.detail-3 {
+    width: 43%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;   
+}
+.detail-1 > .img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.detail-1 > .img:nth-child(1) {
+    border: 1px solid white;
+}
+.detail-1 .img img {
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    padding: 10px;
+}
+.detail-2 img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.company, .price, .offer, .cart {
+    width: 90%;
+    height: 180px;
+    margin-top: 10px;
+    padding: 8px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.company h2{
+    color: white;
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.company p {
+    color: gray;
+    font-size: 20px;
+    margin: 15px  0px;
+    padding: 0px, 10px;
+}
+.company i {
+    color: orangered;
+    margin: auto;
+    margin-right: 3px;
+    font-size: 16px;
+}
+.price .stock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price .stock .tax {
+    margin-top: -30px;
+    padding: 0;
+}
+.price .stock .tax h2 {
+    color: white;
+    margin: 1px 0px;
+    padding: 8px 0px;
+    font-size: 30px;
+}
+.price .stock .tax h2 i {
+    font-size: 25px;
+}
+.price .stock .tax span i {
+    font-size: 20px;
+}
+.price .stock .tax span {
+    color: gray;
+    font-size: 25px;
+}
+.price .stock .tax p {
+    color: gray;
+    padding: 6px 0px;
+    font-size: 18px;
+}
+.price .stock .tax .color {
+    color: rgb(13, 213, 13);
+    font-size: 18px;
+}
+.price .stock .in-stock {
+    margin: 0;
+    padding: 0;
+}
+.price .stock .in-stock button {
+    background-color: rgb(7, 142, 7);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+}
+.price .stock .in-stock button span i {
+    display: inline;
+    position: relative;
+    font-size: 20px;
+    font-weight:lighter;
+    top: 3px;
+    right: 4px;
+    color: white;
+}
+.offer p {
+    color: gray;
+    margin: 10px 0px;   
+    font-size: 18px;
+}
+.offer .payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer .payment p {
+    color: gray;
+    border: 1px solid rgb(101, 99, 99);
+    padding: 8px 16px;
+    margin: 10px 5px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.offer .payment p:hover {
+    border: 1px solid white;
+    color: white;
+}
+.cart .add-cart {
+    color: white;
+    background-color: red;
+    padding: 10px 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;    
+}
+.cart {
+    border-bottom: none;
+}
+#product-container-1 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 150px 0px;
+    position: relative;
+    /* border: 2px solid white; */
+}
+#product-container-1 .p-about  {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#product-container-1 .p-about  h2 {
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 90px;
+    
+}
+#product-container-1 .p-about  h2:hover {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+}
+.active   {
+    background-color: red;
+    border-radius: 3px;
+}
+.specifications {
+    position: relative;
+    display: flex;
+    width: 36%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px;
+}
+.specifications .brand {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+}
+.specifications .brand p {
+    color: gray;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.specifications .brand-name {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+}
+.specifications .brand-name p {
+    width: 100%;
+    color: white;
+    padding: 15px 0px;
+    text-align: right;
+    font-size: 18px;
+}
+.product-container-2 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.product-container-2 > .r-products {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.product-container-2 .r-products .products {
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.product-container-2 .r-products .products .p-img {
+    width: 100%;
+    height: 48%;
+    padding: 10px 16px;
+    background-color: rgba(22, 19, 19, 0.893);
+    
+}
+.p-img img:hover {
+    transform: scale(1.1);
+    
+}
+.product-container-2 .r-products .products .p-img img {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px;
+    
+}
+.products .p-data {
+    width: 90%;
+    height: 50%;
+    margin: 4px 0px;
+}
+.p-company, .p-price {
+    height: 50%;
+    width: 100%;
+    margin: 5px 20px;
+    padding: 0px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.p-company .p-rating {
+    margin-top: 15px;
+}
+.p-company .p-rating i {
+    color: orangered;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.p-company h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+ .p-company p {
+    color: gray;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.p-price {
+    border: none;
+}
+.p-price h2 {
+    color: white;
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.p-price h2 i {
+    font-size: 20px;
+}
+.p-price h2 .del {
+    color: gray;
+    font-size: 18px;
+}
+.p-price h2 .del i {
+    font-size: 15px;
+}
+.p-price  .p-cart {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    font-size: 15px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px; 
+}
+.last-p {
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    align-content: center;
+}
+.container-3 {
+    width: 100%;
+    height: 100%;
+    margin: 100px 0px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.container-3 h2  {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 120px;
+    padding: 5px 20px;
+}
+.container-3 .advantages {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 10px 80px;
+   
+}
+.adv {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.adv .adv-icon {
+    height: 100%;
+    padding-top: 15px;
+}
+
+.adv .adv-icon i {
+    color: red;
+    font-size: 50px;
+    padding: 10px 20px;
+}
+.adv-data h4 {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.adv-data p {
+    color: gray;
+    font-size: 18px;
+    padding: 5px 20px;
+}

@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(19, 18, 18, 0.96);
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+}
+#container {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+#logo {
+    color: white;
+    font-size: 35px;
+    margin-left: 40px;
+}
+#logo a {
+    color: white;
+    text-decoration: none;
+}
+#nav-bar {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#nav-bar ,.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#nav-bar > .nav-list > li {
+    margin: 15px 35px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 10px;
+    
+}
+#nav-bar > .nav-list > li > a {
+    color: white;
+    font-size: 20px;
+}
+
+ul .li .h-list {
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+#nav-bar > .nav-list > li > ul{
+    display: none;
+}
+#nav-bar > .nav-list > li:hover ul {
+    display: block;
+    list-style: none;
+
+}
+#nav-bar > .nav-list > li:hover ul .li {
+    position: absolute;
+    padding: 10px 15px;
+    border: 2px solid gray;
+    display: block;
+    margin-top: 15px;
+    margin-left: -70px; 
+    background-color: black;
+}
+#nav-bar > .nav-list > li:hover ul .lis {
+    position: absolute;
+    border: 2px solid gray; 
+    height: 200px;
+    width: 330px;
+    margin-left: -315px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: black;
+}
+.lis > p, h5 {
+    color: gray;
+    margin: 8px;
+    font-size: 18px;  
+
+}
+button {
+    border: none;
+    margin: 8px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+button:hover {
+    border: 2px solid white;
+}
+span {
+    color: gray;
+}
+button a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 3px ;
+    margin: 8px 5px;
+}
+
+#img-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+   
+}
+.about {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.subscribe, .help  {
+    width: 400px;
+    height: 100%;
+    padding: 10px 16px;
+    display: block;
+}
+.about .subscribe h2 {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0px;
+    padding: 8px 0px;
+}
+.subscribe p {
+    color: gray;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 8px 0px;
+}
+.subscribe input {
+    border: 1px solid gray;
+    color: gray;
+    margin: 10px 0px;
+    padding: 15px 8px ;
+    width: 100%;
+    background-color: transparent;
+}
+.subscribe button {
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+.help h2 {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 8px 0px;
+}
+.help ul {
+    list-style: none;
+    width: 100%;
+}
+.help ul li {
+    padding: 10px 0px;
+}
+.help ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+.follow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+.rights {
+    width: 100%;
+}
+.rights p {
+    color: gray;
+    font-size: 18px;
+}
+.rights p span {
+    color: white;
+    font-size: 18px;
+}
+.s-media {
+     width: 260px;
+}
+.s-media i {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
